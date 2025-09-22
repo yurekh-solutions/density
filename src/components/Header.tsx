@@ -82,7 +82,7 @@ const Header = () => {
             <div className="flex items-center justify-between pb-3 border-b border-border">
               <div className="flex items-center space-x-2 text-sm">
                 <Phone className="h-4 w-4 text-primary" />
-                <span className="font-medium">8047111989</span>
+                <span className="font-medium">9136242706</span>
               </div>
               <div className="flex items-center space-x-1">
                 <span className="text-yellow-400">★★★★★</span>
