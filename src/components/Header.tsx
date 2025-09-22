@@ -81,7 +81,7 @@ const Header = () => {
           <div className="md:hidden glass-card mt-2 rounded-lg p-4 space-y-2 mb-10">
             <div className="flex items-center justify-between pb-3 border-b border-border">
               <div className="flex items-center space-x-2 text-sm">
-                <Phone className="h-4 w-4 text-primary" />
+                <Phone className="h-4 w-4 " />
                 <span className="font-medium">9136242706</span>
               </div>
               <div className="flex items-center space-x-1">

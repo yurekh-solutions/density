@@ -42,23 +42,24 @@ const Hero = () => {
             </p>
 
             {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button 
-                size="lg" 
-                onClick={scrollToContact}
-                className="bg-gradient-primary hover:shadow-floating hover:scale-105 transition-all duration-300 w-[200px] sm:w-[180px] md:w-[200px] mx-auto sm:mx-0"
-              >
-                Book Appointment
-              </Button>
-              <Button 
-                variant="outline" 
-                size="lg"
-                onClick={() => window.open('tel:+919136242706')}
-                className="border-primary/30 hover:bg-primary/5 w-[200px] sm:w-[180px] md:w-[200px] mx-auto sm:mx-0"
-              >
-                <Phone className="mr-2 h-4 w-4" />
-                Call Now
-              </Button>
+                     <div className="flex flex-col sm:flex-row items-center gap-4 justify-center mb-12">
+  <button
+  onClick={() => {
+    const appointmentSection = document.getElementById('appointment');
+    if (appointmentSection) {
+      appointmentSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }}
+  className="w-[250px] px-6 py-2 rounded-full text-base sm:text-lg font-semibold text-white bg-gradient-to-r from-blue-500 to-cyan-500 hover:shadow-xl hover:shadow-cyan-500/50 hover:scale-105 transition-all duration-300"
+>
+  Book Appointment
+</button>
+              <button
+    onClick={() => window.open('tel:+918660335356', '_self')}
+    className="w-[250px] px-6 py-2 rounded-full text-base sm:text-lg font-semibold border border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-white hover:shadow-lg transition-all duration-300"
+  >
+    Call Now →
+  </button>
             </div>
           </div>
 

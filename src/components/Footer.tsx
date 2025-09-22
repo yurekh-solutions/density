@@ -20,7 +20,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-indigo-800 text-primary-foreground">
+    <footer className=" bg-gradient-to-r from-indigo-700 to-cyan-900 text-primary-foreground">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About Section */}
@@ -112,7 +112,7 @@ const Footer = () => {
             </div>
               <div className="text-center ">
             <p className="text-lg text-primary-foreground/60">
-              Designed and Developed by YurekhSolutions
+              Designed and Developed by<a href="https://yurekh.com/"> YurekhSolutions </a>
             </p>
           </div>
             <div className="flex items-center space-x-6">
@@ -120,7 +120,7 @@ const Footer = () => {
                 onClick={() => window.open('tel:+919136242706')}
                 className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200"
               >
-                Emergency: 8047111989
+                Emergency: 9136242706
               </button>
               
               <button
