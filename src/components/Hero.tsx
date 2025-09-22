@@ -53,7 +53,7 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg"
-                onClick={() => window.open('tel:+918047111989')}
+                onClick={() => window.open('tel:+919136242706')}
                 className="border-primary/30 hover:bg-primary/5 w-[200px] sm:w-[180px] md:w-[200px] mx-auto sm:mx-0"
               >
                 <Phone className="mr-2 h-4 w-4" />

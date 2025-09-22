@@ -82,7 +82,7 @@ const FAQ = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
-              onClick={() => window.open('tel:+918047111989')}
+              onClick={() => window.open('tel:+919136242706')}
               className="px-6 py-3 bg-gradient-primary text-white rounded-lg hover:shadow-floating transition-all duration-300"
             >
               Call us: 8047111989
@@ -90,7 +90,7 @@ const FAQ = () => {
             <button
               onClick={() => {
                 const message = "Hi! I have some questions about dental treatments at Blue Sky Dental Care.";
-                window.open(`https://wa.me/918047111989?text=${encodeURIComponent(message)}`, '_blank');
+                window.open(`https://wa.me/919136242706?text=${encodeURIComponent(message)}`, '_blank');
               }}
               className="px-6 py-3 border border-primary text-primary rounded-lg hover:bg-primary/5 transition-all duration-300"
             >

@@ -4,11 +4,11 @@ import { Button } from "@/components/ui/button";
 const FloatingButtons = () => {
   const handleWhatsAppClick = () => {
     const message = encodeURIComponent("Hi! I would like to book an appointment at Blue Sky Dental Care.");
-    window.open(`https://wa.me/918047111989?text=${message}`, '_blank');
+    window.open(`https://wa.me/919136242706?text=${message}`, '_blank');
   };
 
   const handleCallClick = () => {
-    window.open('tel:+918047111989');
+    window.open('tel:+919136242706');
   };
 
   return (

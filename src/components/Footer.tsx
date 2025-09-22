@@ -117,7 +117,7 @@ const Footer = () => {
           </div>
             <div className="flex items-center space-x-6">
               <button
-                onClick={() => window.open('tel:+918047111989')}
+                onClick={() => window.open('tel:+919136242706')}
                 className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200"
               >
                 Emergency: 8047111989
@@ -126,7 +126,7 @@ const Footer = () => {
               <button
                 onClick={() => {
                   const message = "Hi! I need emergency dental assistance.";
-                  window.open(`https://wa.me/918047111989?text=${encodeURIComponent(message)}`, '_blank');
+                  window.open(`https://wa.me/919136242706?text=${encodeURIComponent(message)}`, '_blank');
                 }}
                 className="text-sm text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-200"
               >
