@@ -67,7 +67,7 @@ const ContactForm = () => {
 
 Please confirm the appointment timing. Thank you!`;
 
-      const whatsappUrl = `https://wa.me/918047111989?text=${encodeURIComponent(message)}`;
+      const whatsappUrl = `https://wa.me/919136242706?text=${encodeURIComponent(message)}`;
       window.open(whatsappUrl, '_blank');
 
       toast({
@@ -166,7 +166,7 @@ Please confirm the appointment timing. Thank you!`;
               {/* Quick Action Buttons */}
               <div className="flex flex-col sm:flex-row gap-3 mt-8">
                 <Button 
-                  onClick={() => window.open('tel:+918047111989')}
+                  onClick={() => window.open('tel:+919136242706')}
                   className="flex-1 bg-gradient-primary hover:shadow-soft"
                 >
                   <Phone className="mr-2 h-4 w-4" />
@@ -176,7 +176,7 @@ Please confirm the appointment timing. Thank you!`;
                   variant="outline"
                   onClick={() => {
                     const message = "Hi! I would like to book an appointment at Blue Sky Dental Care.";
-                    window.open(`https://wa.me/918047111989?text=${encodeURIComponent(message)}`, '_blank');
+                    window.open(`https://wa.me/919136242706?text=${encodeURIComponent(message)}`, '_blank');
                   }}
                   className="flex-1 border-green-500 text-green-600 hover:bg-green-50"
                 >

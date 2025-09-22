@@ -95,6 +95,8 @@ const Header = () => {
               { name: "About", id: "about" },
               { name: "Services", id: "services" },
               { name: "Gallery", id: "gallery" },
+                                          { name: "Blogs", id: "blog" },
+
               { name: "Testimonials", id: "testimonials" },
               { name: "Contact", id: "contact" }
             ].map((item) => (
